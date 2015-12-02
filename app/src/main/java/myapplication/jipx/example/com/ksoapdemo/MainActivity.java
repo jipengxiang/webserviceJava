@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (convertStyle == 0) {// C degree to F degree
             textConverted.setText(input.getText().toString().trim() + " degree Celsius = "
-                    + String.format("%.2f", resultTemperature) + " degree Fahrenheit");
+                    + String.format("%.2f", resultTemperature) + " degree Fahrenhei2t");
         } else {// F degree to C degree
             textConverted.setText(input.getText().toString().trim() + " degree Fahrenheit = "
                     + String.format("%.2f", resultTemperature) + " degree Celsius");
